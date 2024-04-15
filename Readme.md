@@ -16,6 +16,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants :
 ### 1. Ouvrir un terminal
 
 Utilisez votre terminal préféré pour accéder à l'interface en ligne de commande.
+gcc main.c -o a.out    
 
 ### 2. Accéder au répertoire contenant le fichier `main.c`
 
@@ -23,3 +24,5 @@ Utilisez la commande `cd` pour naviguer vers le répertoire où se trouve votre 
 
 ```bash
 cd chemin/vers/votre/répertoire
+./a.out
+
