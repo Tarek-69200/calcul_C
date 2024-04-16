@@ -1,14 +1,23 @@
-# include <stdio.h>
-
+#include <stdio.h>
 
 int add(int x, int y) {
     return x + y;
 }
 
 int main() {
-    int x = 5;
-    int y = 10;
-    int result = add(x, y);
-    printf("l'addition de  %d et %d resultat :  %d\n", x, y, result);
+    int x, y, result;
+
+    printf("Entrez le nombre à calculer : ");
+    scanf("%d", &x);
+
+    printf("Entrez la deuxième à additionner : ");
+    scanf("%d", &y);
+
+    result = add(x, y);
+    
+    printf("L'addition de %d et %d donne : %d\n", x, y, result);
+    
     return 0;
 }
+
+// Ref print w3schools
