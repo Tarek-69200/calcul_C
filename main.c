@@ -7,7 +7,7 @@ int add(int x, int y) {
 int main() {
     int x, y, result;
 
-    printf("Entrez le nombre à calculer : ");
+    printf("Entrez le nombre à calculer hassad : ");
     scanf("%d", &x);
 
     printf("Entrez la deuxième à additionner : ");
